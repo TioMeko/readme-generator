@@ -1,8 +1,5 @@
-
 const licenseGenerator = require('./licenseGenerator')
-// TODO: Maybe make another js file to host all the functions for the generateMardown funciton and import to this page to keep it clean.
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -10,6 +7,7 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   
+  - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
