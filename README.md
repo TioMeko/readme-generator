@@ -40,6 +40,5 @@
   
   If you have any questions, you can contact me via the information below.
 
-  // TODO: Add link to github with username 
   * Github: https://github.com/TioMeko
   * Email: marasimowicz@ymail.com
