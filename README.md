@@ -1,9 +1,10 @@
-# aweiugaiweurgwe
+# README Generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
   
+  - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -13,52 +14,32 @@
 
   ## Description
   
-  rqwerqwer
+  This is a placeholder for now
   
   ## Installation
   
-  qwerqwer
+  Placeholder
 
   ## Usage
 
-  qweqr
+  Placeholder
   
   ## License
 
-  
-  MIT License
-        
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to deal
-  in the Software without restriction, including without limitation the rights
-  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
-        
-  The above copyright notice and this permission notice shall be included in all
-  copies or substantial portions of the Software.
-        
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  SOFTWARE.
-        
+ This project is licensed under the MIT License
   
   ## How to Contribute
   
-  qwrerwqr
+  Placeholder
   
   ## Tests
   
-  ewqr
+  Placeholder
   
   ## Questions
   
   If you have any questions, you can contact me via the information below.
 
   // TODO: Add link to github with username 
-  * Github: qewrqwer
-  * Email: qwer
+  * Github: https://github.com/TioMeko
+  * Email: marasimowicz@ymail.com

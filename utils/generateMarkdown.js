@@ -1,7 +1,7 @@
 const licenseGenerator = require('./licenseGenerator')
 
 function generateMarkdown(data) {
-  return `# ${data.title}
+    return `# ${data.title}
 
   ${licenseGenerator.checkLicense(data.license)}
 
@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   
   ## License
 
-  ${licenseGenerator.licenseContent(data.license)}
+ ${licenseGenerator.licenseContent(data.license)}
   
   ## How to Contribute
   
@@ -44,7 +44,7 @@ function generateMarkdown(data) {
   If you have any questions, you can contact me via the information below.
 
   // TODO: Add link to github with username 
-  * Github: ${data.username}
+  * Github: https://github.com/${data.username}
   * Email: ${data.email}
 `;
 }
