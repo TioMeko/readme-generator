@@ -1,9 +1,14 @@
+// Loading the module needed from licenseGenerator
 const licenseGenerator = require('./licenseGenerator')
 
+// exports the function generateMarkdown to be used on index.js to generate the file
+module.exports = generateMarkdown;
+
+// Creates a function that returns a template literal that is written in Markdown syntax
 function generateMarkdown(data) {
     return `# ${data.title}
 
-  ${licenseGenerator.checkLicense(data.license)}
+  ${licenseGenerator.getBadge(data.license)}
 
   ## Table of Contents
   
@@ -29,7 +34,7 @@ function generateMarkdown(data) {
   
   ## License
 
- ${licenseGenerator.licenseContent(data.license)}
+ ${licenseGenerator.getContent(data.license)}
   
   ## How to Contribute
   
@@ -43,10 +48,7 @@ function generateMarkdown(data) {
   
   If you have any questions, you can contact me via the information below.
 
-  // TODO: Add link to github with username 
   * Github: https://github.com/${data.username}
   * Email: ${data.email}
 `;
 }
-
-module.exports = generateMarkdown;

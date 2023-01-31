@@ -1,7 +1,9 @@
+// Loading all the modules needed
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require('./utils/generateMarkdown')
 
+// An array of objects that hold the different questions that will be asked and the appropriate error handling.
 const questions = [
   {
     type: "input",
@@ -82,7 +84,7 @@ const questions = [
     }
   },
   {
-    type: "checkbox",
+    type: "list",
     message: "Which license would you like to add?",
     name: "license",
     choices: [
@@ -93,7 +95,14 @@ const questions = [
       "Mozilla Public License 2.0",
       "None",
     ],
-    // TODO: Find a way to validate a checkbox
+    validate: valid => {
+        if (valid){
+            return true;
+        }else {
+            console.log("Please choose one of the options for license")
+            return false;
+        }
+    }
   },
   {
     type: "input",
@@ -123,16 +132,18 @@ const questions = [
   },
 ];
 
+// This function will create a new file utilizing the parameters fileName and data
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
     err ? console.error(err) : console.log('Success!')
     );
 }
 
+// This function utilizes the inquirer package and prompts all the questions in the questions array.
+// Then each response captured, will be used in the generateMarkdown function to create the README.md
 function init() {
     inquirer.prompt(questions)
     .then(function (userInputs) {
-        console.log(userInputs)
         writeToFile("README.md", generateMarkdown(userInputs));
     });
 };

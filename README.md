@@ -14,7 +14,7 @@
 
   ## Description
   
-  This is a placeholder for now
+  Placeholder
   
   ## Installation
   
@@ -41,4 +41,4 @@
   If you have any questions, you can contact me via the information below.
 
   * Github: https://github.com/TioMeko
-  * Email: marasimowicz@ymail.com
+  * Email: n/a
