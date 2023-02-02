@@ -5,7 +5,7 @@
   ## Table of Contents
   
   - [Description](#description)
-  - [Showcase](#showcase)
+  - [Demo](#demo)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -17,7 +17,7 @@
   This README Generator can be used to generate a professinal README right in your terminal. When ran, you will be prompted with a series of questions and when they are all answered, a README will be generated with the information supplied.
 
   ## Demo
-  ![Demo Video](./assets/video/readme_generator_demo.mp4)
+  
 
   ### Prerequisites
   * npm >= v8.15.1
