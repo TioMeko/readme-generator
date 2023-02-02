@@ -14,10 +14,11 @@
   - [Questions](#questions)
 
   ## Description
-  This README Generator can be used to generate a professinal README right in your terminal. When ran, you will be prompted with a series of questions and when they are all answered, a README will be generated with the information supplied.
+  This README Generator can be used to generate a professinal README right in your terminal. When ran, you will be prompted with a series of questions and when they    are all answered, a README will be generated with the information supplied.
 
   ## Demo
   
+  https://user-images.githubusercontent.com/61386052/216439103-968bbd2c-f189-4f1c-9d5a-68d0d115f9b4.mp4
 
   ### Prerequisites
   * npm >= v8.15.1
