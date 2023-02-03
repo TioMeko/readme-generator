@@ -14,7 +14,7 @@
   - [Questions](#questions)
 
   ## Description
-  This README Generator can be used to generate a professinal README right in your terminal. When ran, you will be prompted with a series of questions and when they    are all answered, a README will be generated with the information supplied.
+  This README Generator can be used to generate a professinal README right in your terminal. When ran, you will be prompted with a series of questions and when they     are all answered, a README will be generated with the information supplied.
 
   ## Demo
   
