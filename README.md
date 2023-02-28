@@ -18,7 +18,7 @@
 
   ## Demo
   
-  https://user-images.githubusercontent.com/61386052/216439103-968bbd2c-f189-4f1c-9d5a-68d0d115f9b4.mp4
+  [README_DEMO.webm](https://user-images.githubusercontent.com/61386052/221895831-550d8814-7955-4b63-b369-ded53d1c9ada.webm)
 
   ### Prerequisites
   * npm >= v8.15.1
